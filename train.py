@@ -89,7 +89,6 @@ def train_and_evaluate(model, train_dataloader, val_dataloader, gm, optimizer, l
                        restore_file=None):
     """Train the model and evaluate every epoch.
     Args:
-        rank: the process rank
         model: (megengine.module) the neural network
         train_dataloader: (DataLoader) an object that fetches training data
         val_dataloader: (DataLoader) an object that fetches validation data
